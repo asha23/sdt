@@ -1,0 +1,7 @@
+.nf-moderator{display:inline-block;height:11px;width:16px;margin-bottom:-1px;background:url(../images/nf-icons.png) 0 50%;border:none;outline:0}
+.nf-moderator:focus,.nf-moderator:hover{border:none}
+.nf-nofollow{background-position:-16px 50%}
+.nf-loading{background-position:-32px 50%}
+.nf-canvasSupported .nf-loading{background-image:none}
+.nf-moderator span{position:absolute;left:-999em}
+.nf-moderator canvas{display:block}

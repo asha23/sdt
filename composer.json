@@ -1,0 +1,7 @@
+{
+    "name": "akaconnect/akagenericv3",
+    "type": "wordpress-dist",
+    "require": {
+            "php": ">=5.3.2"
+        }
+}

@@ -1,0 +1,10 @@
+#options table {padding-bottom: 15px;}
+#options th {width: 120px; text-align: left;}
+#options td:nth-child(2n +1) {min-width: 125px;}
+#options td:nth-child(3n +1) {font-style: italic;}
+#options .hint {width: 50%; text-align: left;}
+
+#options #fav_icon {width: 16px; height: 16px;}
+#options #touch_icon {width: 64px; height: 64px;}
+
+#options .minicolors-input {width: 80px; padding: 10px 5px; text-transform: uppercase;}

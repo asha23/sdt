@@ -1,0 +1,58 @@
+== Changelog ==
+
+= 1.0.3 =
+* Bug Fix: Broken in WP 3.6 – add missing second argument for current_user_can('edit_post') to fix. Slightly alter NoFollowr's jQuery selector to omit unneeded tag selector.
+
+= 1.0.2 =
+* Bug Fix: Similar to the bug fix in v1.0.1. Found other attribute selectors that should use double quotes. May increase compatibility with various jQuery versions.
+
+= 1.0.1.2 =
+* Another attempt to update tag correctly
+
+= 1.0.1.1 =
+* Attempt to update tag correctly
+
+= 1.0.1 =
+* Bug Fix: jQuery attribute selector needed double quotes to work with latest jQuery versions included with recent WordPress updates. Fixes the never-ending spinner issue. Fix typo in docs.
+
+= 1.0 =
+* Upload to WordPress Subversion repository for listing in the official plugin directory
+
+= 0.6.4 =
+* Add version to CSS and JS elements' query string so updating will not run into cache issues
+
+= 0.6.3 =
+* Disables handler on click so only one alteration is sent at a time
+* Deletes the alteration's revision to avoid cluttering up the database
+
+= 0.6.2 =
+* Now works with post_type 'any'. Previously didn't work on 'page' type posts
+
+= 0.6.1 =
+* Minor JS bug fix related to when post contains multiple links that have the same href
+
+= 0.6 =
+* Change CSS class names to be more unique, eg. ".nofollow" now ".nf-nofollow"
+* Use CSS sprites for images
+* Animated Ajax spinner via HTML5 canvas with fallback image for non-canvas browsers
+* JS and CSS now served minified
+
+= 0.5 =
+* Added WordPress version check code to alert any incompatibility upon installation.
+* Now tested to work back to WordPress v2.7
+
+= 0.4 =
+* Extend JavaScript support back to jQuery 1.3
+* Now tested to work in WordPress v2.8.3
+
+= 0.3 =
+* Made adding and removing nofollow attribute much more robust. Now honours existing rel attribute as this is allowed to be a space-separated list
+* Refactored JS for similar reasons
+
+= 0.2 =
+* Add changelog.txt
+* Revise initial version numbers to pre v1.0
+
+= 0.1 =
+* Initial release
+* Launch of nofollowr.com

@@ -1,0 +1,108 @@
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Uncomment only what you need in your project
+// -------------------------------------------------------
+// Core variables and mixins
+// -------------------------------------------------------
+
+@import "custom-variables";
+@import "bootstrap/mixins";
+
+// -------------------------------------------------------
+// Reset and dependencies
+// -------------------------------------------------------
+
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+
+// -------------------------------------------------------
+// Core CSS
+// -------------------------------------------------------
+
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/grid";
+@import "bootstrap/forms";
+
+// @import "bootstrap/code";
+// @import "bootstrap/tables";
+// @import "bootstrap/buttons";
+
+// -------------------------------------------------------
+// Navbar
+// -------------------------------------------------------
+
+@import "bootstrap/navs";
+@import "bootstrap/navbar";
+
+// -------------------------------------------------------
+// Components
+// -------------------------------------------------------
+
+@import "bootstrap/component-animations";
+// @import "bootstrap/dropdowns";
+// @import "bootstrap/button-groups";
+// @import "bootstrap/input-groups";
+// @import "bootstrap/breadcrumbs";
+// @import "bootstrap/pagination";
+// @import "bootstrap/pager";
+// @import "bootstrap/labels";
+// @import "bootstrap/badges";
+// @import "bootstrap/jumbotron";
+// @import "bootstrap/thumbnails";
+// @import "bootstrap/alerts";
+// @import "bootstrap/progress-bars";
+// @import "bootstrap/media";
+// @import "bootstrap/list-group";
+// @import "bootstrap/panels";
+// @import "bootstrap/responsive-embed";
+// @import "bootstrap/wells";
+// @import "bootstrap/close";
+
+// -------------------------------------------------------
+// Javascript components
+// -------------------------------------------------------
+
+// @import "bootstrap/modals";
+// @import "bootstrap/tooltip";
+// @import "bootstrap/popovers";
+// @import "bootstrap/carousel";
+
+// -------------------------------------------------------
+// Utility classes
+// -------------------------------------------------------
+
+@import "bootstrap/utilities";
+@import "bootstrap/responsive-utilities";
+
+// -------------------------------------------------------
+// Font Awesome - Icon font set
+// -------------------------------------------------------
+
+//@import "vendor-styles/font-awesome/scss/font-awesome";
+@import "vendor-styles/font-awesome/css/font-awesome.css";
+
+// -------------------------------------------------------
+// Import vendor styles here eg:
+// -------------------------------------------------------
+
+// lightGallery
+// ============
+
+// @import "vendor-styles/lightgallery/lightgallery.scss";
+
+// Slick Slider
+// ============
+
+// @import "vendor-styles/slick-slider/slick-theme.scss";
+// @import "vendor-styles/slick-slider/slick.scss";
+
+// -------------------------------------------------------
+// Main SCSS (Keep this last)
+// -------------------------------------------------------
+
+@import "styles";
